@@ -22,7 +22,7 @@
             int cost = (Large * 35) + (Small * 25) ;
             Console.WriteLine($"Cost : {cost:C}");
             double tax = (cost * (6.0 / 100));
-            Console.WriteLine($"Tax : {tax:F2:C}");
+            Console.WriteLine($"Tax : {tax:C2}");
             double total = cost + tax;
 
             Console.WriteLine("==========================");
